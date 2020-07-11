@@ -14,7 +14,6 @@ public class LearnCasting {
 		float a = (float) 67.6;
 		System.out.println(a);
 
-
 		System.out.println("hello");
 		
 	}

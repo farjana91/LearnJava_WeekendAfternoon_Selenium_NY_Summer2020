@@ -1,6 +1,6 @@
 package basic;
 
-import basic.pizza.*; // * all
+import pizza.*; // * all
 
 
 public class LearnObject {
