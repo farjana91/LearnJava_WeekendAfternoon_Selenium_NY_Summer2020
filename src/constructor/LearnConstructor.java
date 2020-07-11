@@ -20,18 +20,19 @@ public class LearnConstructor {
     public LearnConstructor(){
         // Default constructor
         System.out.println("This is Default constructor");
-
-
     }
 
     // Single Parameterized constructor
     public  LearnConstructor(String name){
+        //this();
         this.name=name;
         System.out.println(this.name);
     }
 
     // Multiple Parameterized constructor
     public  LearnConstructor(String name, String address){
+        //this("james");
+        //this("Mr Tom");
         this.name=name;
         this.address=address;
         System.out.println(this.name+" "+this.address);
