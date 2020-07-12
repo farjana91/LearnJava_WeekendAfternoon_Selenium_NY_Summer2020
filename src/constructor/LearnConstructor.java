@@ -27,6 +27,7 @@ public class LearnConstructor {
         //this();
         this.name=name;
         System.out.println(this.name);
+        System.out.println(name);
     }
 
     // Multiple Parameterized constructor

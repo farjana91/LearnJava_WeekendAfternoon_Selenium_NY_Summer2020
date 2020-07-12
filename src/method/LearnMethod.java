@@ -30,7 +30,7 @@ public class LearnMethod {
         int number1 = num1;
         int number2 = num2;
         int sub = number2 - number1;
-//        System.out.println("Subtraction Value is " + sub);
+        System.out.println("Subtraction Value is " + sub);
         return sub;
     }
 
@@ -39,7 +39,6 @@ public class LearnMethod {
         System.out.println("Full Name : "+fullName+ "Age "+age);
        return fullName;
     }
-
 
     // Non Return Method without Parameter:
     public void doMultiply(){
@@ -77,11 +76,19 @@ public class LearnMethod {
         int total=subt+50;
         System.out.println("Total value is "+total);
 
+        System.out.println("*************************");
+
+        //int result=obj.doSubtraction(10,40);
+        //System.out.println(obj.doSubtraction(10,40));
+        obj.doSubtraction(10,40);
+        //System.out.println(result);
 
 
     }
-
     // return type method in java
+
+
+
 
 
 }
