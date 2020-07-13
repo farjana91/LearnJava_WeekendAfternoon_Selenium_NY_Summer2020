@@ -4,12 +4,10 @@ public class LearnSwitchCase {
 
 
     public static void main(String[] args) {
-
         // switch (condition){ case number: statements break}
         int foodSerial=10;
         LearnSwitchCase myFood=new LearnSwitchCase();
         myFood.foodMenu(10);
-
     }
 
 
