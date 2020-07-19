@@ -1,0 +1,31 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Æ²Æş8©¯´›¶.
+Q
+java:S1066("/Merge this if statement with the enclosing one.(–è¼üÿÿÿÿ8Ó´×›¶.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(‡§ıÿÿÿÿ8Ó´×›¶.
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ÆÖŒØúÿÿÿÿ8Ó´×›¶.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(î¹ê´ûÿÿÿÿ8ËŒä›¶.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(•‡ó¹8©¯´›¶.
+A
+java:S1659"Declare "c" on a separate line.(ë³ ¹øÿÿÿÿ8©¯´›¶.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(÷Õ­¾ûÿÿÿÿ8ËŒä›¶.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(µ‡È–şÿÿÿÿ8Ó´×›¶.
+X	java:S125	"<This block of commented-out lines of code should be removed.(Ñ—Ù8³øÙ›¶.
+T	java:S106%"9Replace this use of System.out or System.err by a logger.(—Ô8Ó´×›¶.
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(ÜïĞóøÿÿÿÿ8ËŒä›¶.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Í›ìüÿÿÿÿ8©¯´›¶.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(Ù‚•„ÿÿÿÿÿ8Ó´×›¶.
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(²¥²ê8ËŒä›¶.
+L
+java:S1066+"/Merge this if statement with the enclosing one.(Û¤íü8Ó´×›¶.
+K
+java:S1066."/Merge this if statement with the enclosing one.(òîÔ8Ó´×›¶.
+A
+java:S1659"Declare "b" on a separate line.(ë³ ¹øÿÿÿÿ8©¯´›¶.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(°áëÄüÿÿÿÿ8ËŒä›¶.
+l
+java:S1192)"ODefine a constant instead of duplicating this literal "The greatest: " 3 times.(Ü‹é×8Ó´×›¶.
+w
+java:S1192"UDefine a constant instead of duplicating this literal "Greater number is : " 3 times.(ÕêÿÏøÿÿÿÿ8©¯´›¶.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÕêÿÏøÿÿÿÿ8©¯´›¶.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(Ü‹é×8Ó´×›¶.

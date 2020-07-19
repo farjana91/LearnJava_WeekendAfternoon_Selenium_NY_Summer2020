@@ -1,0 +1,15 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(®Ğ×8¾§„¶.
+\
+java:S3518!":Make sure "num2" can't be zero before doing this division.(Öù°ıÿÿÿÿ8§”²¶.
+…
+java:S1130
+"hRemove the declaration of thrown exception 'java.lang.ArithmeticException' which is a runtime exception.(ÜıÚ¡8Ò¼¹¶.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÀéòşÿÿÿÿ8´ª¶.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÒ”Û8Üä­¶.
+X	java:S125"<This block of commented-out lines of code should be removed.(ïóŒÜ8ø©ö¶.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(®Ğ×8§”²¶.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(†É¤ßúÿÿÿÿ8¸íì¶.
+]	java:S125"<This block of commented-out lines of code should be removed.(ÿø×Àúÿÿÿÿ8úÎ¦¶.
+\
+java:S3518":Make sure "num2" can't be zero before doing this division.(Öù°ıÿÿÿÿ8ÙçŸ¶.

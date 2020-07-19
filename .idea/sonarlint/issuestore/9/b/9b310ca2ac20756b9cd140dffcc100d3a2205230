@@ -1,0 +1,6 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Çîó•ÿÿÿÿÿ8ò×§¡¶.
+v
+java:S1104"YMake modernCarName a static final constant or non-public and provide accessors if needed.(Ø×Ôß8Žµ¦¡¶.
+€
+java:S1104"cMake modernCarSuggestedPrice a static final constant or non-public and provide accessors if needed.(»â¯Š8ò×§¡¶.

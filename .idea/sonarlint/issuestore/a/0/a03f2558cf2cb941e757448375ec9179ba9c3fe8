@@ -1,0 +1,10 @@
+
+S
+java:S1854">Remove this useless assignment to local variable "foodSerial".(ƒóÕa
+N	java:S106."9Replace this use of System.out or System.err by a logger.(èÀˆ½
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(¼ÀÇâ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(Œ¸µúÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(•³ÁÆ
+D
+java:S1481"/Remove this unused "foodSerial" local variable.(ƒóÕa
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ôšä

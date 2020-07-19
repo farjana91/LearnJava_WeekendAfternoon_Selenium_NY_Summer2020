@@ -36,8 +36,7 @@ public class GeneralMotors  extends ModernCar implements Car{
     public void breakCar() {
         System.out.println(" General Motors car has break feature");
     }
-
-
+    
     public void autoStart() {
         System.out.println(" General Motors car has autoStart feature");
     }
