@@ -2,6 +2,12 @@ package string;
 
 public class LearnString {
 
+    // Reverse string:
+    // uppercase
+    // lower case
+    // remove
+    // trim
+
     public static void main(String[] args) {
 
         String foodName="American Pizza";
