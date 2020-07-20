@@ -1,0 +1,5 @@
+this is PNT Weekend Afternoon Quality Engineer Batch class.
+we are learning
+Java
+QA
+OOP

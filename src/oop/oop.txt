@@ -108,6 +108,9 @@ Java does NOT support multiple inheritance as it causes ambiguity
             but different signatures where signature can differ by
             number of input parameters or type of input parameters or both.
         - Overloading is related to compile time (or static) polymorphism.
+        - Static binding happens at compile-time while dynamic binding happens at runtime.
+        - Binding of private, static and final methods always happen at compile time since these methods cannot be overridden.
+        -The binding of overloaded methods is static and the binding of overridden methods is dynamic.
 
      Method Overriding:
         - Overriding is a feature that allows a subclass or child class to provide
