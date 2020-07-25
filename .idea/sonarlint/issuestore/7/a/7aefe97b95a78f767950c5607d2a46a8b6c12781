@@ -1,0 +1,7 @@
+
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ñ×Ö¹8ĞôóÄ¶.
+r
+java:S1104"UMake pizzaName a static final constant or non-public and provide accessors if needed.(•É›ì8Ó¤¸Ä¶.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¯ò®8È¿àÄ¶.
+x
+java:S1104"VMake pizzaPrice a static final constant or non-public and provide accessors if needed.(ä¹‘Ôúÿÿÿÿ8îÕ¹Ä¶.

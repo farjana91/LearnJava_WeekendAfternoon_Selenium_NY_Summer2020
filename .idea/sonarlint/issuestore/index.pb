@@ -47,3 +47,39 @@ M
 src/oop/abstraction/Test.java,c\9\c9ec25c2cb0fdfee89028dc0814bcf0b3fd569f0
 V
 &src/oop/abstraction/GeneralMotors.java,4\6\46ff42de91be07dcea179675bbc228c08c3a1419
+a
+1src/problemssolutions/FindOutEligibleForVote.java,4\7\47425dd4cf8170aefc4239ab5b19252ef272906c
+j
+:src/problemssolutions/FindOutIncreaseAndDecreaseOrder.java,a\b\aba8db9fe3d78c4e88b2dc694c61e113a69c398b
+T
+$src/oop/encapsulation/TestPizza.java,e\f\efc27629ca08c8873eaf591bb4f606fd3b733012
+P
+ src/oop/encapsulation/Pizza.java,7\a\7aefe97b95a78f767950c5607d2a46a8b6c12781
+T
+$src/oop/inheritance/GrandFather.java,9\e\9e50997aaf282bd0fc64b1cbe723815632b43b4d
+L
+src/oop/inheritance/Son.java,8\1\813183228e6420cdf233406e867898871c0be61f
+Q
+!src/oop/inheritance/Daughter.java,1\2\12c50b256d626e2e20da0836e672509c2129521b
+O
+src/oop/inheritance/Father.java,d\e\de845735a39df2283b1b89fd59c37cfc719f65be
+M
+src/oop/inheritance/Test.java,5\0\50769816d2a7052bf51c8e134d476c3305828be9
+f
+6src/oop/polymorphism/methodoverloading/Calculator.java,4\9\49c9e0aca46f1a9e10b7aca63b247558bebe6b28
+j
+:src/oop/polymorphism/methodoverloading/TestCalculator.java,e\9\e906c3c21437fa26167cff7e05487ac27e6d6dde
+_
+/src/oop/polymorphism/methodoverriding/Test.java,3\2\328ccb99cbc62e1033021b2c6b7588ecf0b9c76b
+a
+1src/oop/polymorphism/methodoverriding/NewCar.java,b\0\b093068e082be1f93273bf05844d91e98482a74b
+^
+.src/oop/polymorphism/methodoverriding/Bmw.java,9\6\96396785e31953fd5947df910c4e8bbc2822c245
+^
+.src/oop/polymorphism/methodoverriding/Car.java,5\1\512eb01c92dd95a7b5502988f0a3bf5c85517c24
+d
+4src/oop/polymorphism/methodoverriding/FlyingCar.java,c\2\c28ae54a1df5ffc6bc874fba090c3adc36cb7778
+I
+src/datareader/Sample.txt,b\a\ba6664d99ebd1cab10fdf2afaf867b3018b7ee09
+L
+src/datareader/ReadFile.java,f\8\f8b81b5c777cd8a60550477c152ef3a861ed5de1

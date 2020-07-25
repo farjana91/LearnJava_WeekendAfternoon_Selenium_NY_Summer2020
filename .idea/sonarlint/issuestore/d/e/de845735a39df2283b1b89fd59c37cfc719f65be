@@ -1,0 +1,10 @@
+
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(êŸê­ùÿÿÿÿ8¹ÊéÅ¶.
+q
+java:S1104"OMake car a static final constant or non-public and provide accessors if needed.(ÅŞêúÿÿÿÿ8¥ùŞÅ¶.
+
+java:S1104"]Make sportsTeamSupport a static final constant or non-public and provide accessors if needed.(“—ÀŞşÿÿÿÿ8ºàÅ¶.
+v
+java:S1104"YMake favouriteFood a static final constant or non-public and provide accessors if needed.(ñ¦„8úÅ×Å¶.
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(È¸Èòşÿÿÿÿ8¹ÊéÅ¶.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(îöÙ”üÿÿÿÿ8â‘éÅ¶.

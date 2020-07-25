@@ -1,12 +1,12 @@
 
-T
-java:S1854"7Remove this useless assignment to local variable "gm1".(”Ìî8ïûû¢¶.
-W
-java:S2209"5Change this instance-reference to a static reference.(Ã¸¸°ùÿÿÿÿ8Â·ø¡¶.
-]	java:S125 "<This block of commented-out lines of code should be removed.(íŒò½úÿÿÿÿ8‚½ˆ£¶.
 E
 java:S1481"(Remove this unused "gm1" local variable.(”Ìî8ïûû¢¶.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ã¸¸°ùÿÿÿÿ8Â·ø¡¶.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ö™µ–úÿÿÿÿ8“™ë¢¶.
 ]	java:S125"<This block of commented-out lines of code should be removed.(İÚ¶›úÿÿÿÿ8Ã«¢¶.
+W
+java:S2209"5Change this instance-reference to a static reference.(Ã¸¸°ùÿÿÿÿ8Â·ø¡¶.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ã¸¸°ùÿÿÿÿ8Â·ø¡¶.
 X	java:S125"<This block of commented-out lines of code should be removed.(’ºß8ÔÌù¢¶.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ö™µ–úÿÿÿÿ8“™ë¢¶.
+]	java:S125 "<This block of commented-out lines of code should be removed.(íŒò½úÿÿÿÿ8‚½ˆ£¶.
+T
+java:S1854"7Remove this useless assignment to local variable "gm1".(”Ìî8ïûû¢¶.

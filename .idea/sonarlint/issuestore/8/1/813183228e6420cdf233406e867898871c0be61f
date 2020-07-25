@@ -1,0 +1,12 @@
+
+w
+java:S1104"ZMake educationLevel a static final constant or non-public and provide accessors if needed.(ø¬8°ı„Æ¶.
+T	java:S106-"9Replace this use of System.out or System.err by a logger.(¥òÿ`8›Æ•Æ¶.
+w
+java:S1104"[Make sportLoveToPlay a static final constant or non-public and provide accessors if needed.(Ì—8»Æ¶.
+}
+java:S1104"[Make favouriteSchool a static final constant or non-public and provide accessors if needed.(³¬Ü·øÿÿÿÿ8ÒÃƒÆ¶.
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(äÇƒÎıÿÿÿÿ8¢ü—Æ¶.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(¾œÉşÿÿÿÿ8ä•Æ¶.
+p
+java:S1104"SMake favGame a static final constant or non-public and provide accessors if needed.(Ÿãâ³8ô…Æ¶.

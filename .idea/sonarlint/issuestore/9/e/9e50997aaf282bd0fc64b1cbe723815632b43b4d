@@ -1,0 +1,11 @@
+
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(• ı“øÿÿÿÿ8°ğÑÅ¶.
+{
+java:S1104"YMake favouriteDish a static final constant or non-public and provide accessors if needed.(¨ø´Åùÿÿÿÿ8ªÀ¹Å¶.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(®ÌĞ‡8´×ÏÅ¶.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(¸¯†“8°ÜÍÅ¶.
+u
+java:S1104
+"XMake favouriteCar a static final constant or non-public and provide accessors if needed.(¯“ª±8²¢¾Å¶.
+|
+java:S1104	"_Make favouriteSportsTeam a static final constant or non-public and provide accessors if needed.(ç•¾ª8»»Å¶.
