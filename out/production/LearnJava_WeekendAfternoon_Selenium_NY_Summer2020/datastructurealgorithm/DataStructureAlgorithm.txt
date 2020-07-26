@@ -1,0 +1,5 @@
+Array:
+1. Single dimension Array/ 1D Array: String [Length]
+2. 2D Array/ Multidimensional Array: String [row] [column]
+3. 3D Array(1D+2D): String [length] [row] [column]
+
