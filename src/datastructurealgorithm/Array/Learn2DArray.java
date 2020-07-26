@@ -3,7 +3,6 @@ package datastructurealgorithm.Array;
 public class Learn2DArray {
 
 //  2D Array: Two Dimension [] []
-
     public static void main(String[] args) {
         // Declare 2D Array with Length:  dataType [] [] arrayName =new dataType [NumberOfRow] [NumberOfColumn]
         String [] [] studentInfo = new String [5][6];

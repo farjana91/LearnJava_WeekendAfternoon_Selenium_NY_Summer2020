@@ -8,10 +8,7 @@ public class Learn3DArray {
 
     // Declare with length
     static String [] [] [] pizza =new String[4][5][5];
-
-
     String [] [] [] mobile =new String[6][7][8];
-
 
     public static void main(String[] args) {
         Learn3DArray l3d=new Learn3DArray();
@@ -20,7 +17,6 @@ public class Learn3DArray {
         System.out.println("*************************");
         System.out.println( "3D length "+pizza[0].length +" 3D "+ pizza[0][1].length);
         System.out.println("3D length New "+pizza.length*pizza[0].length*pizza[0][1].length);
-
 
         pizza[0][0][0]="serial";
         pizza[0][0][1]="Pizza Type";
@@ -81,8 +77,6 @@ public class Learn3DArray {
                 }
             }
         }
-
-
 
     }
 
