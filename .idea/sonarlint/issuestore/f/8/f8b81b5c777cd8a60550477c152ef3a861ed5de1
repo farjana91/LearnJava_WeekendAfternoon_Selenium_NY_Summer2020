@@ -1,18 +1,18 @@
 
-e
-java:S2259#"HA "NullPointerException" could be thrown; "fileReader" is nullable here.(¦ÈøÉ8¼§¼Ê¶.
+X	java:S125"<This block of commented-out lines of code should be removed.(†€éˆ8–éÊ¶.
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ8–éÊ¶.
 U	java:S106 "9Replace this use of System.out or System.err by a logger.(ðüÏ…8–éÊ¶.
 X	java:S125&"<This block of commented-out lines of code should be removed.(†€éˆ8–éÊ¶.
 i
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Å€ÒÂ8–éÊ¶.
+java:S2259$"LA "NullPointerException" could be thrown; "bufferedReader" is nullable here.(©§þŠ8–éÊ¶.
 L
 java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8–éÊ¶.
 X	java:S125"<This block of commented-out lines of code should be removed.(íî‚³8–éÊ¶.
-X	java:S125"<This block of commented-out lines of code should be removed.(†€éˆ8–éÊ¶.
 i
-java:S2259$"LA "NullPointerException" could be thrown; "bufferedReader" is nullable here.(©§þŠ8–éÊ¶.
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(Å€ÒÂ8–éÊ¶.
+e
+java:S2259#"HA "NullPointerException" could be thrown; "fileReader" is nullable here.(¦ÈøÉ8¼§¼Ê¶.
 \
 java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8ªÛ“Ê¶.
-X	java:S125"<This block of commented-out lines of code should be removed.(°ü´Ú8–éÊ¶.
 Z	java:S106'"9Replace this use of System.out or System.err by a logger.(Åí¬¯þÿÿÿÿ8–éÊ¶.
+X	java:S125"<This block of commented-out lines of code should be removed.(°ü´Ú8–éÊ¶.

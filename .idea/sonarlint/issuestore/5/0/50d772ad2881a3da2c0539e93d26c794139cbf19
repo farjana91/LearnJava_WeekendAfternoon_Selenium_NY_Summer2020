@@ -1,0 +1,10 @@
+
+c
+java:S1192"FDefine a constant instead of duplicating this literal "James" 5 times.( ‹µã8¥¨Öã¸.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ß¸ï©8›•éã¸.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(ôšµ8ƒşã¸.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(Ú¿àãùÿÿÿÿ8ö’€ä¸.
+X	java:S125"<This block of commented-out lines of code should be removed.(ÕÓöÒ8îÁìã¸.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Ú¿àãùÿÿÿÿ8¡„ä¸.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.( Šò‹8¡„ä¸.

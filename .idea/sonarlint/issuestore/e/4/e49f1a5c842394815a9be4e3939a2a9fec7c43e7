@@ -1,0 +1,12 @@
+
+‚
+java:S4165"eRemove this useless assignment; "number1" already holds the assigned value along all execution paths.(£ìÅç8¶İ·ë¸.
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(Ê£‡ùÿÿÿÿ8¾…³ë¸.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ñşÿÿÿÿ
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(ç‹Ÿ»8êÃ´ë¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ì­øúÿÿÿÿ8ÌĞ¹ë¸.
+
+java:S4165"bRemove this useless assignment; "temp" already holds the assigned value along all execution paths.(ş“Ÿ8ÌĞ¹ë¸.
+X
+java:S1854";Remove this useless assignment to local variable "number1".(£ìÅç8˜œÄë¸.

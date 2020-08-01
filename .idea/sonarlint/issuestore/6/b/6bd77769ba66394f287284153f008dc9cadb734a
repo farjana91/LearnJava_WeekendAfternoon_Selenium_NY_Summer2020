@@ -1,0 +1,47 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ8Åìç¿¸.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(°”Ç¥üÿÿÿÿ8¤¯„½¸.
+G
+java:S1481"*Remove this unused "name2" local variable.(´à‚8Åìç¿¸.
+G
+java:S1481"*Remove this unused "name4" local variable.(´÷”¼8ïíâ¼¸.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(š‚‚şÿÿÿÿ8Åìç¿¸.
+X	java:S125G"<This block of commented-out lines of code should be removed.(ÜÉ„8Åìç¿¸.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÒŒå¬şÿÿÿÿ
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(Î®ÛÁ8Åìç¿¸.
+G
+java:S1481"*Remove this unused "name3" local variable.(›áæÔ8ïíâ¼¸.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(áêÀ¿8Åìç¿¸.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(Ïş„8Åìç¿¸.
+V
+java:S1854"9Remove this useless assignment to local variable "name2".(´à‚8Åìç¿¸.
+H
+java:S1481"+Remove this unused "stName" local variable.(Ä¿…8Åìç¿¸.
+X	java:S125("<This block of commented-out lines of code should be removed.(†€éˆ8Åìç¿¸.
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(ô—Ûµøÿÿÿÿ8Åìç¿¸.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(·Òù¡şÿÿÿÿ8Åìç¿¸.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(­·Ğüÿÿÿÿ8Åìç¿¸.
+[
+java:S4973:"9Use the "equals" method if value comparison was intended.(ı‹¶¯ÿÿÿÿÿ8Åìç¿¸.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¦Ã•8öä¼¸.
+V
+java:S1854"9Remove this useless assignment to local variable "name4".(´÷”¼8ïíâ¼¸.
+r
+java:S1192"PDefine a constant instead of duplicating this literal "Student Name : " 8 times.(ƒç‡õùÿÿÿÿ8€İ™½¸.
+]	java:S1252"<This block of commented-out lines of code should be removed.(ŸÖÓÅúÿÿÿÿ8Åìç¿¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‹’‡úÿÿÿÿÿ8€İ™½¸.
+T	java:S106@"9Replace this use of System.out or System.err by a logger.(ØÇèa8Åìç¿¸.
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(Ú¿àãùÿÿÿÿ8Åìç¿¸.
+V
+java:S1854"9Remove this useless assignment to local variable "name3".(›áæÔ8ïíâ¼¸.
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(­·Ğüÿÿÿÿ8Åìç¿¸.
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(ì÷øæøÿÿÿÿ8Åìç¿¸.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(Èô¥ú8Åìç¿¸.
+L
+java:S1481"*Remove this unused "name5" local variable.(æÆ‰ãøÿÿÿÿ8Åìç¿¸.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ä¡Ñ8€İ™½¸.
+X	java:S125"<This block of commented-out lines of code should be removed.(àÖ‰Í8Åìç¿¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒç‡õùÿÿÿÿ8Åìç¿¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(úşÿÿÿÿ8€İ™½¸.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(Ââùñşÿÿÿÿ8Åìç¿¸.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(—áîc8€İ™½¸.

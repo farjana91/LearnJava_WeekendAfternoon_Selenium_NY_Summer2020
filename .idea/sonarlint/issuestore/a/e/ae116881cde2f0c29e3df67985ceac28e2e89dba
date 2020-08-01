@@ -1,0 +1,14 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(öó¾ïøÿÿÿÿ8î’¼Ã¸.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Òİğç8òº¸Ã¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´®Î·ûÿÿÿÿ8ÅÄÃ¸.
+V
+java:S1128"4Remove this unused import 'oop.encapsulation.Pizza'.(¦«×øúÿÿÿÿ8ÖºîÂ¸.
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(»£ñ¯üÿÿÿÿ8 ¹¢Ã¸.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñÅÈ8·‡³Ã¸.
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(áÿªÊûÿÿÿÿ8¾ŒÃ¸.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÒŒå¬şÿÿÿÿ
+U
+java:S1197J"8Move the array designator from the variable to the type.(øØÛñ8ÆâŸÃ¸.
+U
+java:S1197H"8Move the array designator from the variable to the type.(­­îÙ8ÙôœÃ¸.

@@ -1,0 +1,8 @@
+
+V
+java:S4973""9Use the "equals" method if value comparison was intended.(ß…Œ‘8û‘©å¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÉê«ıÿÿÿÿ8Ö‚¯å¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(èÊƒÏùÿÿÿÿ8²Êå¸.
+X	java:S125%"<This block of commented-out lines of code should be removed.(ˆÁû˜8£ƒ­å¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(–Ô‹ÿÿÿÿÿ8¯æ”å¸.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(Ù–“Ú8£ƒ­å¸.
