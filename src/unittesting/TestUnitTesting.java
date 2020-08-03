@@ -5,17 +5,14 @@ import org.junit.*;
 public class TestUnitTesting {
     // Test case method
     // before method >>> Test Case method >>> After method
-
     @Before
     public void welcome(){
         System.out.println("Welcome to Unit Testing");
     }
-
     @After
     public void goodBye(){
         System.out.println("GoodBye to Unit Testing");
     }
-
 
     @Ignore
     public void testDoSummation(){
