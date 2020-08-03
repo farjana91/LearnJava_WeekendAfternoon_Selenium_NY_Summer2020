@@ -1,19 +1,19 @@
 
-I
-java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8ÛÇì¸.
-M
-java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18Æœì¸.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(²˜¸ûÿÿÿÿ8¦ª”ì¸.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(µ²àÓşÿÿÿÿ8‡ıšì¸.
-U	java:S106)"9Replace this use of System.out or System.err by a logger.(Ìî£8ò§®ì¸.
 J
 java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8ğ™ì¸.
 l
 java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(·»³U8Šôì¸.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(²˜¸ûÿÿÿÿ8óœ‘ì¸.
-m
-java:S1149$"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(÷é˜Ñ8˜ë¦ì¸.
-Z	java:S106'"9Replace this use of System.out or System.err by a logger.(×¦ÉËùÿÿÿÿ8¹´­ì¸.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹Œÿûÿÿÿÿ8ë¨“ì¸.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(Ìî£8ò§®ì¸.
 m
 java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(îºÄ½8Ê˜Ÿì¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(µ²àÓşÿÿÿÿ8‡ıšì¸.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(×¦ÉËùÿÿÿÿ8¹´­ì¸.
+I
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8ÛÇì¸.
+m
+java:S1149$"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(÷é˜Ñ8˜ë¦ì¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(²˜¸ûÿÿÿÿ8óœ‘ì¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(²˜¸ûÿÿÿÿ8¦ª”ì¸.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹Œÿûÿÿÿÿ8ë¨“ì¸.
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18Æœì¸.

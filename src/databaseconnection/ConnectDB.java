@@ -8,9 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-
 public class ConnectDB {
-
     // Secret.property file
     // jdbc driver
     // jdbc url
@@ -31,7 +29,6 @@ public class ConnectDB {
         return prop;
     }
 
-
     public static Connection connectToSqlDatabase() throws IOException, SQLException, ClassNotFoundException {
         Properties prop = loadProperties();
         // To load all the property from Properties file
@@ -39,29 +36,14 @@ public class ConnectDB {
         String url = prop.getProperty("MYSQLJDBC.url");
         String userName = prop.getProperty("MYSQLJDBC.userName");
         String password = prop.getProperty("MYSQLJDBC.password");
+
         Class.forName(driverClass);
         connect = DriverManager.getConnection(url, userName, password);
         System.out.println("Database is connected");
         return connect;
     }
 
-    public List<String> readDataBase(String tableName, String columnName) throws Exception {
-        List<String> data = new ArrayList<String>();
-        try {
-            connectToSqlDatabase();// it will connect with Database
-            statement = connect.createStatement();
-            resultSet = statement.executeQuery("select * from " + tableName);
-            data = getResultSetData(resultSet, columnName);
-            System.out.print(data);
-        } catch (ClassNotFoundException e) {
-            throw e;
-        } finally {
-            close();
-        }
-        return data;
-    }
-
-    private List<String> getResultSetData(ResultSet resultSet2, String columnName) throws SQLException {
+    private static List<String> getResultSetData(ResultSet resultSet, String columnName) throws SQLException {
         List<String> dataList = new ArrayList<String>();
         while (resultSet.next()) {
             String itemName = resultSet.getString(columnName);
@@ -69,8 +51,18 @@ public class ConnectDB {
         }
         return dataList;
     }
+    private static List<String> getResultSetData(ResultSet resultSet, String columnName1,String columnName2) throws SQLException {
+        List<String> dataList = new ArrayList<String>();
+        while (resultSet.next()) {
+            String itemName1 = resultSet.getString(columnName1);
+            String itemName2 = resultSet.getString(columnName2);
+            dataList.add(itemName1);
+            dataList.add(itemName2);
+        }
+        return dataList;
+    }
 
-    private void close() {
+    private static void close() {
         try {
             if (resultSet != null) {
                 resultSet.close();
@@ -86,6 +78,44 @@ public class ConnectDB {
         }
     }
 
+    public static List<String> readDataBase(String tableName, String columnName) throws Exception {
+        List<String> data = new ArrayList<String>();
+        try {
+            connectToSqlDatabase();// it will connect with Database
+            statement = connect.createStatement();
+            resultSet = statement.executeQuery("select * from " + tableName);
+            data = getResultSetData(resultSet, columnName);
+           // System.out.println(data);
+            for (String dt:data) {
+                System.out.println(dt);
+            }
+        } catch (ClassNotFoundException e) {
+            throw e;
+        } finally {
+            close();
+        }
+        return data;
+    }
+
+    public static List<String> readDataBase(String tableName, String columnName1, String columnName2) throws Exception {
+        List<String> data = new ArrayList<String>();
+        try {
+            connectToSqlDatabase();// it will connect with Database
+            statement = connect.createStatement();
+            resultSet = statement.executeQuery("select * from " + tableName);
+            data = getResultSetData(resultSet, columnName1,columnName2);
+            //System.out.println(data);
+            for (String dt:data) {
+                System.out.print(dt+" ");
+            }
+        } catch (ClassNotFoundException e) {
+            throw e;
+        } finally {
+            close();
+        }
+        return data;
+    }
+
     public void insertDataFromArrayToSqlTable(int[] ArrayData, String tableName, String columnName) {
         try {
             connectToSqlDatabase();
@@ -95,7 +125,8 @@ public class ConnectDB {
             ps.executeUpdate();
 
             for (int n = 0; n < ArrayData.length; n++) {
-                ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?)");
+                // Insert into tableName (columnName) values()
+                ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?,?)");
                 ps.setInt(1, ArrayData[n]);
                 ps.executeUpdate();
             }
@@ -125,7 +156,6 @@ public class ConnectDB {
 
     public List<String> directDatabaseQueryExecute(String passQuery, String dataColumn) throws Exception {
         List<String> data = new ArrayList<String>();
-
         try {
             connectToSqlDatabase();
             statement = connect.createStatement();
@@ -169,7 +199,6 @@ public class ConnectDB {
             ps.setString(1, "Ankita Sing");
             ps.setInt(2, 3590);
             ps.executeUpdate();
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -179,12 +208,12 @@ public class ConnectDB {
         }
     }
 
-    public static List<User> readUserProfileFromSqlTable() throws IOException, SQLException, ClassNotFoundException {
+    public static List<User> readUserProfileFromSqlTable(String tableName) throws IOException, SQLException, ClassNotFoundException {
         List<User> list = new ArrayList<>();
         User user = null;
         try {
             Connection conn = connectToSqlDatabase();
-            String query = "SELECT * FROM Students";
+            String query = "SELECT * FROM " + tableName + "";
             // create the java statement
             Statement st = conn.createStatement();
             // execute the query, and get a java resultset
@@ -197,7 +226,6 @@ public class ConnectDB {
                 //System.out.format("%s, %s\n", name, id);
                 user = new User(name, id, dob);
                 list.add(user);
-
             }
             st.close();
         } catch (Exception e) {
@@ -208,21 +236,24 @@ public class ConnectDB {
     }
 
 
-
-
     public static void main(String[] args) throws Exception {
         ConnectDB connectDB=new ConnectDB();
         // connect with MySQL Database
         //connectToSqlDatabase();
 
-        connectDB.readDataBase("movie","title");
+        //connectDB.readDataBase("movie","title");
 
-        List<User> list = readUserProfileFromSqlTable();
+        List<User> list = readUserProfileFromSqlTable("students");
         for (User user : list) {
             System.out.println(user.getStName() + " " + user.getStID() + " " + user.getStDOB());
         }
 
 
+       // connectToSqlDatabase();
+       // readDataBase("movie","title");
+        //System.out.println();
+        //readDataBase("movie","release_year");
+       //readDataBase("movie","genre","mpaa_rating");
 
 
 
