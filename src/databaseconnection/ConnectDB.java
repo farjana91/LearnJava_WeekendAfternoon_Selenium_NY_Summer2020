@@ -116,17 +116,17 @@ public class ConnectDB {
         return data;
     }
 
-    public void insertDataFromArrayToSqlTable(int[] ArrayData, String tableName, String columnName) {
+    public static void insertDataFromArrayToSqlTable(int[] ArrayData, String tableName, String columnName) {
         try {
             connectToSqlDatabase();
             ps = connect.prepareStatement("DROP TABLE IF EXISTS `" + tableName + "`;");
             ps.executeUpdate();
-            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`ID` int(11) NOT NULL AUTO_INCREMENT,`SortingNumbers` bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
+            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`ID` int(11) NOT NULL AUTO_INCREMENT,`"+columnName+"` bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
             ps.executeUpdate();
 
             for (int n = 0; n < ArrayData.length; n++) {
                 // Insert into tableName (columnName) values()
-                ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?,?)");
+                ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?)");
                 ps.setInt(1, ArrayData[n]);
                 ps.executeUpdate();
             }
@@ -169,7 +169,7 @@ public class ConnectDB {
         return data;
     }
 
-    public void insertDataFromArrayListToSqlTable(List<Student> list, String tableName, String columnName) {
+    public void insertDataFromArrayListToSqlTable2(List<Student> list, String tableName, String columnName) {
         try {
             connectToSqlDatabase();
             ps = connect.prepareStatement("DROP TABLE IF EXISTS `" + tableName + "`;");
@@ -190,7 +190,26 @@ public class ConnectDB {
             e.printStackTrace();
         }
     }
-
+    public static void insertDataFromArrayListToSqlTable(List<String> list, String tableName, String columnName) {
+        try {
+            connectToSqlDatabase();
+            ps = connect.prepareStatement("DROP TABLE IF EXISTS `" + tableName + "`;");
+            ps.executeUpdate();
+            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`ID` int(11) NOT NULL AUTO_INCREMENT,`"+columnName+"` varchar (20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
+            ps.executeUpdate();
+            for (String st : list) {
+                ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?)");
+                ps.setObject(1, st);
+                ps.executeUpdate();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 
     public void insertProfileToSqlTable(String tableName, String columnName1, String columnName2) {
         try {
@@ -207,7 +226,6 @@ public class ConnectDB {
             e.printStackTrace();
         }
     }
-
     public static List<User> readUserProfileFromSqlTable(String tableName) throws IOException, SQLException, ClassNotFoundException {
         List<User> list = new ArrayList<>();
         User user = null;
@@ -236,6 +254,38 @@ public class ConnectDB {
     }
 
 
+    public static void insertDataFromArrayListToSqlTable(List<String> stNameList,List<String> emailList, String tableName, String columnName,String columnName1) {
+        try {
+
+            // ALTER TABLE Customers
+            //ADD Email varchar(255);
+            connectToSqlDatabase();
+           ps = connect.prepareStatement("DROP TABLE IF EXISTS `" + tableName + "`;");
+            ps.executeUpdate();
+            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`ID` int(11) NOT NULL AUTO_INCREMENT,`"+columnName+"` varchar (20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
+            ps.executeUpdate();
+            for (String st : stNameList) {
+                ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?)");
+                ps.setObject(1, st);
+                ps.executeUpdate();
+            }
+            ps=connect.prepareStatement("   ALTER TABLE "+tableName+" ADD `" + columnName1 + "`varchar (200) DEFAULT NULL ");
+            ps.executeUpdate();
+            for (String st : emailList) {
+                ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName1 + " ) VALUES(?)");
+                ps.setObject(1, st);
+                ps.executeUpdate();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+
     public static void main(String[] args) throws Exception {
         ConnectDB connectDB=new ConnectDB();
         // connect with MySQL Database
@@ -243,10 +293,10 @@ public class ConnectDB {
 
         //connectDB.readDataBase("movie","title");
 
-        List<User> list = readUserProfileFromSqlTable("students");
-        for (User user : list) {
-            System.out.println(user.getStName() + " " + user.getStID() + " " + user.getStDOB());
-        }
+//        List<User> list = readUserProfileFromSqlTable("students");
+//        for (User user : list) {
+//            System.out.println(user.getStName() + " " + user.getStID() + " " + user.getStDOB());
+//        }
 
 
        // connectToSqlDatabase();
@@ -256,7 +306,23 @@ public class ConnectDB {
        //readDataBase("movie","genre","mpaa_rating");
 
 
+        int[] stID={1,5,7,9};
 
+        //insertDataFromArrayToSqlTable(stID,"stdetails","stId");
+
+        List<String> stName=new ArrayList<>();
+        stName.add("Jony");
+        stName.add("Sami");
+        stName.add("Lem Lem");
+        stName.add("Arib");
+
+        //insertDataFromArrayListToSqlTable(stName,"stdetails","stName");
+        List<String> stEmails=new ArrayList<>();
+        stEmails.add("Jony@gmail.com");
+        stEmails.add("Sami@gmail.com");
+        stEmails.add("LemLem@gmail.com");
+        stEmails.add("Arib@gmail.com");
+        insertDataFromArrayListToSqlTable(stName,stEmails,"stdetails","stName","stEmails");
     }
 
 
